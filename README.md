@@ -91,3 +91,21 @@ Flutter Developer
 - **LinkedIn**: [My LinkedIn Profile](https://www.linkedin.com/in/mohammad-kaif-ali-3a19671a0)
 - **Twitter**: [My Twitter/X Profile](https://x.com/kaifali744)
 - **Email**: [Email me](mailto:kaifali744@gmail.com)
+
+## 📂 Project Structure
+
+The project follows a scalable directory structure to ensure separation of concerns:
+
+```text
+lib/
+├── constants/
+│   └── colors.dart         # Centralized color palette (AppColors)
+├── models/
+│   └── project_model.dart  # Data model for Project Cards
+├── screens/
+│   ├── main_wrapper.dart   # Handles Bottom Navigation logic & System UI
+│   └── portfolio_screen.dart # Main UI with Tabs and Search logic
+├── widgets/
+│   ├── custom_bottom_nav.dart # Extracted Nav Logic
+│   └── project_card.dart      # Reusable Card Widget
+└── main.dart               # Entry point & Theme config
