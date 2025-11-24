@@ -82,7 +82,7 @@ Navigation Bar: The requirement for the indicator to be above the icon required 
 
 SafeArea Fixes: Added SafeArea and SystemUiOverlayStyle configurations to ensure the app looks clean on modern Android devices with gesture navigation bars.
 
-👨## ‍💻 Developer
+## ‍👨💻 Developer
 **Mohammad Kaif Ali**
 
 Flutter Developer
