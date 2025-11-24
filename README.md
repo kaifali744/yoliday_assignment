@@ -99,7 +99,7 @@ The project follows a scalable directory structure to ensure separation of conce
 ```text
 lib/
 ├── constants/
-│   └── colors.dart         # Centralized color palette (AppColors)
+│   └── app_colors.dart         # Centralized color palette (AppColors)
 ├── models/
 │   └── project_model.dart  # Data model for Project Cards
 ├── screens/
